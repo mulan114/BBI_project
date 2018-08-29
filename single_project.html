@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Swift</title>
+<title>Brittany Blake Interiors</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!-- CSS -->
 <link rel="stylesheet" type="text/css"  href="css/style.css">
 <!-- Javascript -->
 <script src="js/jquery.min.js"></script>
+<script src="js/flexslider_slide.js"></script>
 <script src="js/jquery.isotope.min.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/ender.min.js"></script>
@@ -29,21 +30,16 @@
 	<div class="container">
 	
 		<!-- Logo -->
-		<div class="four columns">
+		<div class="six columns">
 			<a href="index.html"><img src="images/logo.png" alt=""/></a>
 		</div>
 		
 		<!-- Main Navigation Start -->
-		<div class="twelve columns">
+		<div class="ten columns">
 			<div id="navigation">
 				<ul id="nav">
 				
 					<li><a href="index.html">Home</a>
-						<ul>
-							<li><a href="index_2.html">Home Version 2</a></li>
-							<li><a href="index_3.html">Home Version 3</a></li>
-							<li><a href="index_4.html">Home Version 4</a></li>
-						</ul>
 					</li>
 					
 					<li><a href="javascript:;">Pages</a>
@@ -70,13 +66,7 @@
 						</ul>
 					</li>
 					
-					<li><a id="current" href="portfolio_4.html">Portfolio</a>
-						<ul>
-							<li><a href="portfolio_2.html">Portfolio 2 Columns</a></li>
-							<li><a href="portfolio_3.html">Portfolio 3 Columns</a></li>
-							<li><a href="portfolio_4.html">Portfolio 4 Columns</a></li>
-							<li><a href="single_portfolio.html">Single Portfolio</a></li>
-						</ul>
+					<li><a id="current" href="portfolio.html">Portfolio</a>
 					</li>
 					<li><a href="blog.html">Blog</a>
 						<ul>
@@ -104,7 +94,7 @@
 	<!-- Container Start -->
 	<div class="container">
 		<div class="sixteen columns">
-			<h2>Portfolio 2 Columns</h2>
+			<h2>Single Portfolio</h2>
 		</div>
 	</div>
 	<!-- Container End -->
@@ -112,75 +102,48 @@
 </div>
 <!-- Page Title End -->
 
-
+	
 	<!-- Container -->
 	<div class="container">
 	
-		<!-- Portfolio Filter -->
+		<!-- Project Title -->
 		<div class="sixteen columns">
+			<h4 class="headline">Portfolio 1</h4>
+		</div>
+		<!-- End Project Title-->
 
-			<div id="filters">
-				<ul class="option-set" data-option-key="filter">
-					<li><a href="#filter" class="selected" data-option-value="*">All</a></li>
-					<li><a href="#filter" data-option-value=".web-design">Web Design</a></li>
-					<li><a href="#filter" data-option-value=".print">Print</a></li>
-					<li><a href="#filter" data-option-value=".logo">Logo</a></li>
-					<li><a href="#filter" data-option-value=".software">Software</a></li>
+		<!-- Slider -->
+		<div class="eleven columns">
+			<div class="project">
+				<div class="flexslider">
+					<ul class="slides">
+						<li><a href="images/portfolio_images/portfolio1_large.jpg" rel="imagebox[gallery]" title="My Title 1"><img src="images/portfolio_images/portfolio1_large.jpg" alt="" /><div class="overlay zoom"></div></a></li>
+						<li><a href="images/portfolio_images/portfolio2_large.jpg" rel="imagebox[gallery]" title="My Title 2"><img src="images/portfolio_images/portfolio2_large.jpg" alt="" /><div class="overlay zoom"></div></a></li>
+						<li><a href="images/portfolio_images/portfolio3_large.jpg" rel="imagebox[gallery]" title="My Title 3"><img src="images/portfolio_images/portfolio3_large.jpg" alt="" /><div class="overlay zoom"></div></a></li>
+					 </ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="five columns">
+		
+				<h5 class="headline">Overview</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo tristique odio, quis fringilla ligula aliquet ut. Maecenas sed justo varius velit imperdiet bibendum. Vivamus nec sapien massa, a imperdiet diam.</p>
+				<p>Aliquam erat volutpat. Sed consectetur suscipit nunc et rutrum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo.</p>
+			
+				<h5 class="headline">Things we did</h5>
+				<ul class="arrow_list">
+					<li>HTML/CSS</li>
+					<li>User Interface Design</li>
+					<li>Programming</li>
 				</ul>
-			</div>
-	
-
-		</div><!-- End Portfolio Filter-->
-
-	</div>
-	<!-- End Container -->
-
-	<!-- Container -->
-	<div class="container">
-		<!-- Portfolio Content -->
-		<div id="portfolio-wrapper">
-			
-			<!-- 1/2 Column -->
-			<div class="eight columns portfolio-item web-design">
-					<div class="item-img"><a href="images/portfolio_images/portfolio1_large.jpg" rel="imagebox" title="Portfolio 1"><img src="images/portfolio_images/portfolio1.jpg" alt=""/><div class="overlay zoom"></div></a></div>
-					<div class="portfolio-item-meta">
-						<h5><a href="single_project.html">Portfolio 1</a></h5>
-						<p>Lid est laborum dolo rumes fugats untra maecena hendrerit lorem conseact etur.</p>
-					</div>
-			</div>
-
-			<!-- 1/2 Column -->
-			<div class="eight columns portfolio-item print logo">
-					<div class="item-img"><a href="images/portfolio_images/portfolio2_large.jpg" rel="imagebox" title="Portfolio 2"><img src="images/portfolio_images/portfolio2.jpg" alt=""/><div class="overlay zoom"></div></a></div>
-					<div class="portfolio-item-meta">
-						<h5><a href="single_project.html">Portfolio 2</a></h5>
-						<p>Lid est laborum dolo rumes fugats untra maecena hendrerit lorem conseact etur.</p>
-					</div>
-			</div>
-			
-			<!-- 1/2 Column -->
-			<div class="eight columns portfolio-item web-design logo software">
-					<div class="item-img"><a href="images/portfolio_images/portfolio3_large.jpg" rel="imagebox" title="Portfolio 3"><img src="images/portfolio_images/portfolio3.jpg" alt=""/><div class="overlay zoom"></div></a></div>
-					<div class="portfolio-item-meta">
-						<h5><a href="single_project.html">Portfolio 3</a></h5>
-						<p>Lid est laborum dolo rumes fugats untra maecena hendrerit lorem conseact etur.</p>
-					</div>
-			</div>
-			
-			<!-- 1/2 Column -->
-			<div class="eight columns portfolio-item software">
-					<div class="item-img"><a href="images/portfolio_images/portfolio4_large.jpg" rel="imagebox" title="Portfolio 4"><img src="images/portfolio_images/portfolio4.jpg" alt=""/><div class="overlay zoom"></div></a></div>
-					<div class="portfolio-item-meta">
-						<h5><a href="single_project.html">Portfolio 4</a></h5>
-						<p>Lid est laborum dolo rumes fugats untra maecena hendrerit lorem conseact etur.</p>
-					</div>
-			</div>
+				<br/>
+				<a href="#" class="button medium black">Launch Website</a>
 			
 		</div>
-		<!-- End Portfolio Content -->
+
 	</div>
 	<!-- End Container -->
-
 
 <!-- Footer Start -->
 <div id="footer">
@@ -191,7 +154,7 @@
 		<!-- About Us -->
 		<div class="four columns">
 			<h5>About Us</h5>
-			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+			<p>Brittany Blake Interiors, where we work to accommodate your needs, helping you discover your own unique style. Our designers are excited help you get started on a design that is completely yours.</p>
 		</div>
 		
 		<!-- Twitter -->
@@ -222,11 +185,11 @@
 		<div class="four columns">
 			<h5>Contact Us</h5>	
 			<ul class="contact-details">
-				<li><i class="icon-map-marker"></i> <p>123 Street Name<br/>San Francisco, CA 94107, USA</p></li>
-				<li><i class="icon-phone"></i> <p>Phone: (123) 0987-654</p></li>
-				<li><i class="icon-envelope"></i><p>Email: <a href="mailto:contact@swift.com">contact@swift.com</a></p></li>
+				<li><i class="icon-map-marker"></i> <p>1050 North Post Oak Rd. Suite 210<br/>Houston, TX 77055, USA</p></li>
+				<li><i class="icon-phone"></i> <p>Phone: (713) 780-1337</p></li>
+				<li><i class="icon-envelope"></i><p>Email: <a href="mailto:dina@brittanyblakeinteriors.com">dina@brittanyblakeinteriors.com</a></p></li>
 			</ul>			
-		</div>		
+		</div>	
 
 	</div>
 	<!-- Container End -->
@@ -241,7 +204,7 @@
 	<div class="container">
 				
 		<div class="eight columns">
-			<div id="copyright">&copy; Copyright 2013. All Rights Reserved.</div>
+			<div id="copyright">&copy; Copyright 2018. All Rights Reserved.</div>
 		</div>
 				
 		<div class="eight columns">
