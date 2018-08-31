@@ -173,9 +173,9 @@ Author URI: http://dev7studios.com
 .nivo-html-caption {
     display:none;
 }
-.nivo-wrap {font:13px; font-family:'PT Sans';}
-.nivo-wrap span.tit {display:block;font:24px; font-family:'PT Sans';text-shadow:#565656 0 1px 1px;padding-bottom:10px;}
-.nivo-wrap strong.tit2 {display:block;font:bold 37px; font-family:'PT Sans';text-transform:uppercase;text-shadow:#565656 0 1px 1px;padding-bottom:10px;}
+.nivo-wrap {font:13px 'PT Sans';}
+.nivo-wrap span.tit {display:block;font:24px 'PT Sans';text-shadow:#565656 0 1px 1px;padding-bottom:10px;}
+.nivo-wrap strong.tit2 {display:block;font:bold 37px 'PT Sans';text-transform:uppercase;text-shadow:#565656 0 1px 1px;padding-bottom:10px;}
 
 /* Direction nav styles (e.g. Next & Prev) */
 .nivo-directionNav a {
